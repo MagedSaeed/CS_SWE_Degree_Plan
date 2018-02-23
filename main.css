@@ -1,4 +1,8 @@
 
+h2{
+  font-family: cursive;
+}
+
 .navbar-custom {
   background-color: #048700;
   height: 80px;
@@ -11,7 +15,7 @@
 .navbar-custom .container-fluid .navbar-nav{
   font-size: 125%;
   color:white;
-  /* display:block; */
+
   margin:auto;
   padding-top: 25px;
   text-align: center;
@@ -32,23 +36,53 @@
   border-radius: !important;
 }
 
-.container .panel-custom p{
+.container p{
   font-size: 18px;
   font-family: fantasy;
 }
 
 .container .majors {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container .majors .cs {
+.container .majors .csb {
   height: 300px;
   width: 300px;
+  margin-right: 50px;
+  background: linear-gradient(180deg, #ffffe6, #ffffcc) !important;
+  border-style: solid;
+  border-width:2px;
+  border-color: black;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  font-size: 25px;
+  font-family: serif;
 }
 
-.container .majors .swe {
+.container .majors .sweb {
   height: 300px;
   width: 300px;
+  margin-left: 50px;
+  background: linear-gradient(180deg, #ffffe6, #ffffcc) !important;
+  border-style: solid;
+  border-width:2px;
+  border-color: black;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  font-size: 25px;
+  font-family: serif;
+}
+
+.container .majors .csb img {
+  height: 200px;
+  mix-blend-mode: multiply;
+
+}
+
+.container .majors .sweb img {
+  height: 200px;
+  mix-blend-mode: multiply;
+  padding-bottom: 12px;
 }
 
 body{
