@@ -15,7 +15,6 @@ h2{
 .navbar-custom .container-fluid .navbar-nav{
   font-size: 125%;
   color:white;
-
   margin:auto;
   padding-top: 25px;
   text-align: center;
@@ -47,7 +46,15 @@ h2{
   align-items: center;
 }
 
-.container .majors .csb {
+.container .majors .cs_href{
+  color:inherit;
+}
+
+.container .majors .swe_href{
+  color:inherit;
+}
+
+.container .majors .cs_href .csb {
   height: 300px;
   width: 300px;
   margin-right: 25px;
@@ -55,9 +62,10 @@ h2{
   border-style: solid;
   border-width:2px;
   border-color: black;
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  font-size: 15px;
+  //box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  font-size: 25px;
   font-family: serif;
+
 }
 
 .container .majors .sweb {
@@ -68,7 +76,7 @@ h2{
   border-style: solid;
   border-width:2px;
   border-color: black;
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  //box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3), 0 6px 5px 0 rgba(0, 0, 0, 0.2);
   font-size: 25px;
   font-family: serif;
 }
