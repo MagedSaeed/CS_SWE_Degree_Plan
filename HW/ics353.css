@@ -1,0 +1,54 @@
+header{
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+
+}
+
+header .centered{
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+  text-align: center;
+}
+
+.kfupm_logo{
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+header .ics353{
+  text-decoration: underline;
+  color: red;
+}
+
+.content .subheaders{
+  font-weight: bold;
+}
+
+.content .classInfo_det {
+  width: 65%;
+}
+
+.content .classInfo_det,
+.content .classInfo_det td,
+.content .classInfo_det th{
+  border: 1px solid black;
+  border-collapse:  collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content .assmentPlan_det{
+  width:60%;
+  border-collapse:  collapse;
+}
+.content .assmentPlan_det td,
+.content .assmentPlan_det th{
+  border: 1px solid black;
+  margin-right: auto;
+}
