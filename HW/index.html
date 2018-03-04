@@ -1,3 +1,5 @@
+<!-- This is the main page showing the header, the footer and the cs chart image. The image map is also included. -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +13,9 @@
 
 <body>
   <header>
+  	<!-- The header is divided into two equally horizanl width sections. These sections holds the text and the required images. I named these sections left and right for the sake of readibility. Each div is further divided into two divs one is for the sentences and the other is for the images. This modularization simplifies the styling operation.-->
+
+  	<!-- Left -->
     <div class="left">
       <div class="sentences">
         King Fahd University of petroleum & Minerals<br> College of Computer Science & Engineering<br> Information & Computer Science Department<br>
@@ -19,6 +24,8 @@
         <img src="kfupm_logo.jpg" alt="The browser does not support showing such image." height="100" width="100" />
       </div>
     </div>
+
+    <!-- Right -->
     <div class="right">
       <div class="sentences">
         جـــــــامعة الملـــــــك فهــــــــد للبترول والمعــــــــادن
@@ -30,7 +37,9 @@
         <img src="ics_logo.png" alt="The browser does not support showing such image." />
       </div>
     </div>
+
   </header>
+  	<!-- Here is the image map code -->
   <div class="imageMap">
     <img src="cs_degree_plan.png" usemap="#image-map" class="img" alt="There is a problem in presenting this image.
                                 The image maight be lost or your browser does not support showing png image."/>
@@ -42,6 +51,8 @@
     <area shape="rect" coords="1087,625,1089,627" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
     </map>
   </div>
+
+	<!-- Here is the footer code -->
   <footer>
     Notes:
     Physics and math are corequisites.<br>
@@ -50,7 +61,5 @@
     <mark>MATH102, ICS353, ICSxxx, ICS431.</mark>
   </footer>
 </body>
-
-
 
 </html>
